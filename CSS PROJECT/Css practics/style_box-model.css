@@ -1,0 +1,13 @@
+p{
+    border: 3px solid red;
+    /* border-color: aquamarine; */
+    border-radius: 5px;
+    /* border-style: double; */
+    border-radius: 95px;
+    border-radius: 5%;
+    border-radius: 1000px;
+    background: rgb(119, 223, 154);
+    /* text-align: center; */
+    /* text-align: match-parent; */
+
+}

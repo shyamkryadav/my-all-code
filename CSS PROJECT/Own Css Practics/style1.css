@@ -1,0 +1,22 @@
+/* .sp{
+    font-style: italic;
+    background: rgb(231, 149, 149);
+    border: 3px solid red;
+    /* margin: 10px 20px; */
+
+/* 
+a:link {color: #009900;} 
+a:visited {color: #999999;} 
+a:hover {color: #333333;} 
+a:focus {color: #ec1616;} 
+a:active {color: #37f537;} */
+
+ p{
+     direction: rtl;
+     /* letter-spacing: 5px; */
+     text-align: start;
+     text-align: justify;
+     text-shadow:  5px red;
+     cue-before: 20;
+     voice-duration
+ }

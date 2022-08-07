@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    height: 10vh;
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+}
+.search{
+    margin: 10px 0px -1px 100px;
+    padding-left: 19px;
+    font-size: 23px;
+    width: 36vw;
+    color: black;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(94, 89, 89,0.3);
+}
+.item{
+    border: 2px solid   rgba(94, 89, 89,0.3);
+}
+.search:hover{
+    border: 2px solid   rgba(94, 89, 89,0.3);
+    border-radius: 5px;
+}
+.searchicon{
+    position: absolute;
+    height: 2vw;
+    right: 22vw;
+    top: 2.9vh;
+}
+
+.nav ul li{      
+    margin: 14px 0 0px 10px;
+    list-style: none;
+    font-weight: bold;
+    width: 6vw;
+    height: 5vh;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+.profilelogo{
+    height: 8vh;
+    position: absolute;
+    right: 5vw;
+    top: 7px;
+}
+.cursor{
+    cursor: pointer;
+}
+.item:hover{
+    background: #b1b8bb;
+    border-radius: 5px;
+}
+
+/* ****************************ABOVE LINE FOR ALL PAGE**************** */
+
+
+main{
+
+}
+.firstcontent{
+    height: 85vh;
+    background: red;
+    background-image: url('/image/aboutbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.innercontent{    
+    position: absolute;
+    display: flex;
+    
+    width: 80vw;
+    height: 63vh;
+    top: 20vh;
+    left: 10vw;
+}
+.rightbox{
+    height: 84%;
+    width: 30%;
+    padding: 35px;
+    background: #090940;
+    color: wheat;
+    font-weight: bold;
+}
+.text{
+    
+    margin-top: 20px;
+}
+.btn{
+    margin: 16px 60px;
+    height: 28px;
+    width: 132px;
+    outline: none;
+    border: none;
+    background: darkred;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background: #bf0909;
+
+}
+.leftbox{
+    background: url('../image/aboutbg2.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+    width: 70%;
+}
+.secondcontent{
+    height: 60vh;
+/* background: black; */
+}
+.heading{
+    align-items: center;
+display: flex;
+flex-direction: column;
+margin-top: 2vh;
+}
+.heading .first{
+
+}
+.heading .second{
+
+}
+.items{
+display: flex;
+justify-content: center;
+}
+.marginforitem{
+    
+    margin: 20px 33px;
+}
+.graph{
+
+}
+.graphimg{
+        height: 15vh;
+}
+.graphheading{
+        font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.graphpara{
+font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px 0px 0px;
+    color: #a99d9d;
+}
+.wallet{
+
+}
+.walletimg{
+        height: 15vh;
+}
+.walletheading{
+               font-size: 15px;
+    display: flex;
+    
+    margin-top: 4px;
+    justify-content: center;
+}
+
+
+
+.walletpara{
+font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px 0px 0px;
+    color: #a99d9d;
+}
+.walletline{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid blue;
+    margin: 4vh auto;
+    padding: 0;
+    width: 5vw;
+}
+
+.chair{
+    
+}
+.chairimg{
+        height: 15vh;
+}
+.chairheading{
+    font-size: 15px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid blue;
+    margin: 1.5vh auto;
+    padding: 0;
+    width: 5vw;
+}
+
+
+
+.chairpara{
+font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px 0px 0px;
+    color: #a99d9d;
+}
+

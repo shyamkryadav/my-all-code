@@ -1,0 +1,16 @@
+textarea{
+    /* resize: both; */
+    resize: none;
+    /* resize: unset; */
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    /* resize: ; */
+}
+div{
+    border: 2px solid green;
+    /* resize: horizontal; */
+    overflow: auto;
+    resize: vertical;
+    resize: both;
+    resize: none;
+}

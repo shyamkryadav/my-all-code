@@ -1,0 +1,33 @@
+body{
+    border: 5px solid yellow;
+    /* padding: 25px; */
+}
+
+.margine{
+    background: rgb(119, 202, 51);
+    /* padding: 25px; */
+    padding-bottom: 2px;
+    border: 5px dotted gray;
+    border-radius: 20px;
+}
+
+#mar{
+    margin-bottom: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2px;
+}
+#mar1{
+    margin-bottom: 5px;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 2px;
+}
+#mar2{
+    margin-bottom: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2px;
+    margin-left: 500px;
+    margin-top: auto;
+}

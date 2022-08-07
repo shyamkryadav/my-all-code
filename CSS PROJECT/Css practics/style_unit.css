@@ -1,0 +1,29 @@
+html{
+    font-size: 14px;
+}
+
+#parent{
+    /* border:1px solid red; */
+    /* width: 10cm; */
+    /* width: 100mm; */
+    /* width: 5in; */
+    /* width: 800px; */
+    /* width: 500pt; */
+    /* width: 500pc; */
+    /* width: 100%; */
+    /* width: 50vh;
+    height: 50vh; */
+    /* font-size: 40px; */
+    /* font-size: 5rem; */
+    font-size: 5vw;
+
+
+}
+
+#child{
+    /* border: 1px solid blue;
+    width: 50%; */
+    /* font-size: 2em; */
+    font-size: 2rem;
+
+}

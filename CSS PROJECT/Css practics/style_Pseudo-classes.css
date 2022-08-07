@@ -1,0 +1,37 @@
+/* selector:pesudi-class{
+
+} */
+
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(odd){
+    color: green;
+}
+li:nth-child(even){
+    color: rgb(181, 226, 17);
+}
+li:nth-child(4){
+    color: rgb(7, 6, 6);
+}
+
+li:nth-child(3n+1){
+    color: rgb(255, 0, 136);
+}
+li:nth-last-child(2){
+    color: rgb(210, 222, 238);
+}
+/* li:only-child{
+    color: chocolate;
+} */
+input:focus{
+    border: 5px solid rgb(255, 10, 10);
+    
+}
+/* input:link{
+    background: #000;
+    www.facebook.com
+} */

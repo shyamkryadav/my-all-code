@@ -1,0 +1,22 @@
+/* transform: perspective(300px) rotate3d()
+perspective-orogin:50% 50% */
+
+#parent{
+    
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    transform: rotate3d(50,10,4,5deg);
+    margin: 200px;
+}
+
+#child{
+    background: red;
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    /* transform: perspective(300px) rotate3d(50,50,50,30deg); */
+    transform: perspective(300px) translate3d(0px,40px,-50px);
+
+
+}

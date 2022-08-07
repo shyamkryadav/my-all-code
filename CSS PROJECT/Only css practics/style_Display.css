@@ -1,0 +1,69 @@
+/*  
+    **default**
+block
+inline
+
+
+    **non-Default**
+inline-block
+none 
+ */
+
+
+ /* ****block***
+ div
+ p
+ h1-h6
+ form
+
+ inline
+ img
+ span */
+
+
+ /* block
+ 1.new line
+ 2.full line
+ 3.height and width
+
+inline
+1.not new line
+2.no full width
+3.no height and widht */
+/* 
+inline-block
+1.not new line
+2.no full width
+3.no height and widht */
+
+.dispaly{
+    border: 2px solid red;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 5px; */
+    display: inline;
+    display: inline-block;
+    /* display: flex; */
+    
+}
+
+#div1{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* height: 500px; */
+    display: contents;
+
+}
+li{
+    /* display: contents; */
+    display: contents;
+    /* display: inline ; */
+    list-style: none;
+    /* margin: 500px; */
+    border: 2px solid red;
+    margin-right: 500px;
+}
+ul{
+    border: 2px solid red; 
+    padding-right: 50%;
+}

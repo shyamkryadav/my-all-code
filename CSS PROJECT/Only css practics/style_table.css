@@ -1,0 +1,39 @@
+table{
+    border: 2px solid rgb(245, 74, 7);
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+    border-spacing: 15px 30px;
+    empty-cells: hide;
+    width: 300px;
+    /* table-layout: auto; */
+    /* table-layout: fixed;  */
+}
+
+caption{
+    border: 3px solid rgb(4, 5, 4);
+    /* border-bottom: none; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* text-align: end; */
+    /* caption-side: bottom; */
+    table-layout: auto;
+
+}
+
+th{
+    border: 2px solid rgb(142, 137, 146);
+    height: 30px;
+    /* width: auto; */
+    padding: 7px;
+    text-align: center;
+    
+}
+
+td{
+    border: 2px solid silver;
+    height: 15px;
+    padding: 15px;
+    text-align: center;
+    /* vertical-align: bottom; */
+    vertical-align: top;
+}

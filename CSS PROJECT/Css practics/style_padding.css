@@ -1,0 +1,16 @@
+.padding{
+    background: rgb(240, 203, 203);
+    border: 1px solid rebeccapurple;
+    /* padding-top: 50px;
+    padding: 50px;
+    padding-right: 20%;
+    padding-left: 30%;
+    padding-bottom: 25px; */
+    color: blue;
+    padding: 50px;
+    border-width: 5px;
+    border-radius: 20px;
+    font-size: larger;
+    margin-bottom: 5px;
+
+    /* padding: 25px 50px 75px 100px; */

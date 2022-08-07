@@ -1,0 +1,20 @@
+ul{
+    list-style-type: circle;
+    list-style: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
+    list-style: symbols();
+    list-style: decimal;
+    list-style: decimal-leading-zero;
+    list-style-image: url("bg.jpg");
+
+}
+
+li{
+    border: 1px solid red;
+    list-style-position: inside;
+}
+od{
+    /* border: 1px solid green; */
+}
+

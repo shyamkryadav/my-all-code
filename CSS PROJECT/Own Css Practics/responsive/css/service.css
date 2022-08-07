@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#check{
+    /* display: none; */
+}
+.main2{ 
+    overflow: visible;
+    height: 71vh;
+    position:absolute;
+    right: 5vw;
+    background-color: white;
+    top: 10vh;
+width:24vw;
+border-radius: 13px 13px 0px 0px;
+border: 2px #0000001c;
+border-radius: 12px;
+border-style: solid;
+/* display:none; */
+transition: all 0.7s;
+
+}
+
+#check:checked ~ .main2{
+    /* right: 5vw; */
+    transition: all 7s;
+    display: block;
+    top: 13vh;
+    /* margin-top: 25px; */
+}
+header{
+    height: 10vh;
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    display: flex;
+}
+.search{
+    margin: 10px 0px -1px 100px;
+    padding-left: 19px;
+    font-size: 23px;
+    width: 36vw;
+    color: black;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(94, 89, 89,0.3);
+}
+.item{
+    border: 2px solid   rgba(94, 89, 89,0.3);
+}
+.search:hover{
+    border: 2px solid   rgba(94, 89, 89,0.3);
+    border-radius: 5px;
+}
+.searchicon{
+    position: absolute;
+    height: 2vw;
+    right: 22vw;
+    top: 2.9vh;
+}
+
+.nav ul li{      
+    margin: 14px 0 0px 10px;
+    list-style: none;
+    font-weight: bold;
+    width: 6vw;
+    height: 5vh;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+.profilelogo{
+    height: 8vh;
+    position: absolute;
+    right: 5vw;
+    top: 7px;
+}
+.cursor{
+    cursor: pointer;
+}
+.item:hover{
+    background: #b1b8bb;
+    border-radius: 5px;
+}
+
+/* ****************************ABOVE LINE FOR ALL PAGE**************** */
+.container{
+    margin-top: -31px;
+    height: 140vh;
+    background: aliceblue;
+}
+.heading{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+}
+.heading h1{    margin: 11px;
+    font-size: 45px;}
+.heading p{font-weight: bold;
+    font-size: 20px;}
+.firstrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    /* width: 100vw; */
+}
+.brain{    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.brainimg{
+    height: 15vw;
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+.brainheading{
+font-size: 25px;
+}
+.brainpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;
+}
+.sepeaker{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.speakerimg{    height: 15vw;
+    margin-bottom: 15px;
+    margin-top: 24px;}
+.speakerheading{font-size: 25px;}
+.speakerpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;}
+.webdevelopment{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.webdevimg{    height: 15vw;
+    margin-bottom: 15px;
+    margin-top: 24px;}
+.webdevheading{
+font-size: 25px;
+}
+.webdevpara{display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;}
+.secondrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorbox{    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.colorboximg{    height: 15vw;      margin-bottom: 15px;
+    margin-top: 24px;}
+.colorboxheading{font-size: 25px;}
+.colorboxpara{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;}
+.media{    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.mediaimg{    height: 15vw;  margin-bottom: 15px;
+    margin-top: 24px;}
+.mediaheading{font-size: 25px;}
+.mediapara{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0;}
+.ecommerc{    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.ecommercimg{    height: 15vw;  margin-bottom: 15px;
+    margin-top: 24px;}
+.ecommercheading{font-size: 25px;}
+.ecommercpara{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px 0}
+
+
+

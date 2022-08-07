@@ -1,0 +1,18 @@
+ul{
+    background: rgb(212, 120, 120);
+    list-style: none;
+    border: 2px solid red;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 50px;
+    border-radius: 20px;
+}
+
+li{
+    color: blue;
+    padding: 10px 15px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}

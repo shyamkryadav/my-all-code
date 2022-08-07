@@ -1,0 +1,48 @@
+#div1{
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+}
+#div2{
+    width: 30%;
+    float: left;
+    background-color: rgb(38, 185, 190);
+
+}
+
+h1{
+    font-size: 80px;
+}
+
+@media screen and (max-width:768px) {
+    #div1{
+    width: 50%;
+}
+        
+    #div2{
+    width: 50%;
+}
+          
+}
+@media screen and (min-width:400px) and (max-width:768px) {
+    #div1{
+    width: 100%;
+}
+        
+    #div2{
+    width: 100%;
+    color: wheat;
+    background-color: black;
+}
+          
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}

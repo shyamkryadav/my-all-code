@@ -1,0 +1,51 @@
+p{
+    width: 500px;
+    border: 2px solid green;
+    color: rgb(43, 226, 58);
+    /* text-align: end; */
+    text-align: justify;
+    /* text-align: start; */
+    /* text-align: inherit; */
+    /* text-align: initial; */
+    /* text-align: unset; */
+    /* text-align: center; */
+    /* direction: rtl; */
+    /* direction: inherit; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-align: line-through; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* line-height: 30px; */
+    text-indent: 50px;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 50px; */
+    /* white-space: pre; */
+    /* white-space: nowrap; */
+    /* white-space: inherit; */
+    /* word-wrap: break-word; */
+     
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid red;
+    /* vertical-align: text-top; */
+    /* vertical-align: top; */
+    /* vertical-align: middle; */
+    /* vertical-align: ; */
+    
+
+}
+
+.shado{
+    text-shadow: 0.2px 4px 10px rgb(214, 93, 36); 
+    font-size: 30px;
+    writing-mode: sideways-rl;
+
+}
+
+strong{
+    writing-mode: sideways-rl;
+}

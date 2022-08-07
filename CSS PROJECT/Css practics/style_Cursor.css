@@ -1,0 +1,26 @@
+div{
+    border: 1px solid red;
+}
+
+div:hover{
+
+}
+
+div{
+    /* cursor: pointer; */
+    /* cursor: auto; */
+    /* cursor: all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: e-resize; */
+    /* cursor: grab; */
+    /* cursor: help; */
+    /* cursor: not-allowed; */
+    /* cursor: progress; */
+    /* cursor: pointer; */
+    /* cursor: zoom-in; */
+    /* cursor: text; */
+
+
+
+}

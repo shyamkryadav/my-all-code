@@ -1,0 +1,53 @@
+/* there are four types of position
+:-  static (default)-noraml flow
+    relative 
+    fixed 
+    absolute
+
+1 top bottom left rifht */
+
+body{
+    height: 1000px;
+    
+}
+
+#parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
+    margin: 100px;
+    position: relative;
+
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: inline-block;
+    
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    display: inline-block;
+    /* position: relative; */
+    /* top: 50px;
+    left: 50px;  */
+    /* display: ab; */
+    /* position: absolute; */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background: pink;
+    display: inline-block;
+    /* position: fixed; */
+    
+}

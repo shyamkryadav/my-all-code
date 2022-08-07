@@ -1,0 +1,45 @@
+#div1{
+    background-color: blueviolet;
+    width: 600px;
+    height: 500px;
+    border: 9px solid rgb(230, 7, 7);
+    border-radius: 550px;
+}
+#div2{
+    background-color: pink;
+    height: 500px;
+    width: 600px;
+    border: 9px solid green;
+    border-radius: 550px;
+    position: center;
+    
+
+}
+
+#div2:hover{
+    background: rgb(194, 24, 24);
+
+}
+#div1:hover{
+    background: rgb(216, 144, 144);
+
+}
+
+div{
+    /* margin-left: 50%; */
+    display: flex;
+    /* display: flexbox; */
+    display: inline-table;
+
+}
+
+div:checked{
+    height: 5px;
+    width: 5px;
+    background: yellow;
+}
+div::-ms-check{
+    background: yellow;
+    height: 5px;
+    width: 5px;
+}

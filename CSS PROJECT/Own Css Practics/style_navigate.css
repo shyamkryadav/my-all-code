@@ -1,0 +1,16 @@
+ul{
+    background-color: aliceblue;
+    border: 2px solid greenyellow;
+    overflow: auto;
+    
+}
+
+li{
+    color: cornflowerblue;
+    padding: 16px 90px;
+    float: left;
+    list-style: none;
+    list-style-position: initial;
+    font-size: 25px;
+    /* font-size: 50px; */
+}

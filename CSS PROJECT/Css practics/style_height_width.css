@@ -1,0 +1,16 @@
+body{
+    border: 2px solid red;
+    height: 800px;
+}
+.height{
+    background: rgb(129, 218, 121);
+    /* height: auto;
+    width: auto; */
+    /* height: 500px; */
+    /* width: 500px; */
+    /* width: 70%; */
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 300px;
+    min-height: 400px;
+}

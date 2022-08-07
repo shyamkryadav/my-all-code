@@ -1,0 +1,13 @@
+div{
+    border: 2px solid red;
+    width: 500px;
+    background: yellow;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 20px 15px 4px greenyellow inset;
+    box-shadow: 10px 20px 15px 4px rgb(199, 248, 127),-10px 20px 15px 4px rgb(255, 0, 0);
+
+    box-shadow: 15px 25px 20px 5px green;
+
+
+}

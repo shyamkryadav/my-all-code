@@ -1,0 +1,14 @@
+#color-box{
+    background: green;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+
+}
+
+/* img:hover      {
+    width: 200px;
+    height: 200px;
+    opacity: 0.9;
+} */

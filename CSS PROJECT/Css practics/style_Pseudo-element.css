@@ -1,0 +1,37 @@
+h2::first-letter{
+    font-size: 33px;
+    color: red;
+}
+
+h2::before{
+    content: url(bg.jpg);
+    
+}
+
+h2::after{
+    content: " added after shyam";
+
+}
+
+p::first-letter{
+    font-size: 33px;
+    color: rgb(4, 70, 253);
+
+}
+p::first-line{
+    font-size: 33px;
+    color: rgb(4, 70, 253);
+
+}
+
+::selection{
+    color: rgb(255, 145, 0);
+    background: rgba(122, 33, 224, 0.425);
+}
+
+p::grammar-error{
+   color: red;
+}
+::-webkit-validation-bubble-heading{
+    background: #000;
+}

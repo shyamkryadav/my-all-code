@@ -1,0 +1,71 @@
+/* @keyframes changecolor{
+    from{ background-color: red; }
+    to { background-color: yellow; } */
+/* } */
+@keyframes changecolor{
+    0%{ background-color: red; }
+    10%{ background-color: rgb(166, 255, 0); }
+    20%{ background-color: rgb(111, 0, 255); }
+    35%{width: 300px;}
+    30%{ background-color: rgba(255, 0, 76, 0.034); }
+    65%{width: 300px;}
+    40%{ background-color: rgb(0, 102, 255); }
+    50%{ background-color: rgb(19, 13, 13); }
+    100% { background-color: yellow; }
+}
+@keyframes changecolors{
+    0%{ background-color: red; border-radius: 5%;}
+    10%{ background-color: rgb(0, 0, 0); border-radius: 10%;}
+    20%{ background-color: rgb(217, 255, 0); border-radius: 20%;}
+    30%{ background-color: rgb(9, 255, 0); border-radius: 30%;}
+    40%{ background-color: rgb(26, 132, 194); border-radius: 40%;}
+    50%{ background-color: rgb(40, 30, 182); border-radius: 50%;}
+    60%{ background-color: rgb(255, 0, 200); border-radius: 60%;}
+    70%{ background-color: rgba(27, 99, 33, 0.11); border-radius: 70%;}
+    80%{ background-color: rgb(226, 205, 205); border-radius: 80%;}
+    90%{ background-color: red; border-radius: 90%;}
+    100%{ background-color: rgb(162, 0, 255); border-radius: 100%;}
+}
+
+
+#aminate{
+    background-color: rgb(211, 55, 55);
+    height: 300px;
+    width: 300px; 
+    animation-name: changecolors;
+    animation-duration: 10s;
+    animation-delay: 10s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#aminate{
+    background: rgb(192, 152, 152);
+    height: 500px;
+    width: 500px;
+    animation-name: changecolors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+#aminate2{
+    background-color: rgb(211, 55, 55);
+    height: 200px;
+    width: 200px; 
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-delay: 5s ;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+
+} 
+

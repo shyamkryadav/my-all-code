@@ -1,0 +1,12 @@
+div{
+    /* background-image: linear-gradient(rgb(141, 30, 30),blue,yellow); */
+    border: 5px solid rgb(248, 244, 0);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+    background-image: repeating-linear-gradient(rgb(141, 30, 30),blue,yellow);
+    overflow: -moz-hidden-unscrollable;
+}

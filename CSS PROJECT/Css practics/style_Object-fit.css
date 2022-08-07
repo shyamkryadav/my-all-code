@@ -1,0 +1,13 @@
+img{
+    border: 2px solid green;
+    height: 500px;
+    width: 500px;
+    /* object-fit: contain; */
+    /* object-fit: fill; */
+    /* object-fit: cover; */
+    object-fit: contain;
+    /* object-position: top center; */
+    /* object-position: top bottom; */
+    /* object-position: center; */
+    /* -o-object-position: 500px; */
+}

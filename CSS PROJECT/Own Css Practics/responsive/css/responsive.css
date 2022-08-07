@@ -1,0 +1,242 @@
+@media screen and (min-width:0px) and (max-width:322px) {
+    
+    .nav{
+        position:absolute;
+        left: -100%;
+    }
+    nav ul{
+   
+        flex-direction: column;
+        height: 528PX;
+        width: 320PX;
+        position: absolute;
+        left: -100%;
+        background: lightgreen;
+        margin-top: 57px;
+        align-items: center;
+}
+.nav{
+    left: 0px;
+    height: 393px;
+    width: 320px;
+}
+.main{
+    background-image: url(/image/resbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.manu{
+    display: block;
+    height: 43px;
+    /* width: 12px; */
+    position: absolute;
+}
+.meanubtn{
+    display: block;
+    margin-left: 8px;
+    margin-top: 14px;
+    height: 28px;
+    width: 40px;
+    cursor: pointer;
+}
+.nav ul li{
+    margin: 34px 0 0px 10px;
+    list-style: none;
+    font-weight: bold;
+    width: 25vw;
+    height: 5vh;
+    padding-left: 21px;
+    padding-top: 10px;
+    background: lightblue;
+  
+}
+.nav ul li:hover{
+    border-radius: 5px;
+    background-color: rgb(128, 159, 170);
+}
+.search{
+    left: 70px;
+    top: 15px;
+    width: 105px;
+    font-size: 13px;
+    padding-left: 15px;
+    height: 24px;
+}
+.searchicon{
+    left: 196px;
+    height: 14px;
+    top: 17px;
+}
+
+
+.profilelogo{
+    height: 31px;
+    right: 43px;
+    top: 8px;
+}
+    .content{
+        margin: 0px 20px;
+        font-size: 10px;
+    }
+    .content h1{
+        font-size: 14px;
+        margin-top: 100px;
+    }
+    .text p{
+        margin-top: 10px;
+    }
+    .content button{
+        padding: 4px 9px;
+        margin-top: 16px;
+        font-size: 8px;
+        border-radius: 2px;
+    }
+    footer{
+        width: 203px;
+        position: unset;
+        margin-top: -51px;
+        margin-left: 59px;
+    }
+    .footertext{
+        font-size: 10px;
+        margin-left: 37px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .footertext2{
+        font-size: 15px;
+    }
+    .main2{
+        height: 250px;
+        width: 140px;
+        left: 80px;
+        margin-top: -22px;
+    }
+
+    .div1{
+        width: 140px;
+        height: 53px;
+    }
+    .div1h3{
+        font-size: 10px;
+    top: 15px;
+    }
+    .div1img{
+        top: 24px;
+        height: 18px;
+        right: 6px;
+    }
+    .profileimg{
+        height: 30px;
+        margin-left: 53px;
+        margin-top: 36px;
+    }
+    .div2{
+        width: 140px;
+        height: 53px;
+    }
+    .div2h3{
+        margin-top: 23px;
+        font-size: 9px;
+        margin-left: 40px;
+    }
+    .div2p{
+        margin-top: 34px;
+        font-size: 8px;
+        margin-left: 48px;
+    }
+    .div2img1{
+        height: 25px;
+        margin-top: 46px;
+        margin-left: 29px;
+    }
+    .div2img2{
+        height: 25px;
+        margin-top: 46px;
+        margin-left: 56px;
+    }
+    .div2img3{
+        height: 25px;
+        margin-top: 46px;
+        margin-left: 84px;
+    }
+    .div2innerdiv{
+        width: 126px;
+        margin-top: 74px;
+        height: 50px;
+    }
+    .innerdivp
+{
+    font-size: 11px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+.innerdivimg{
+    height: 17px;
+    margin-left: 12px;
+    margin-top: 6px;
+    width: 21px;
+}
+.innerbtn{
+    margin: 26px 38px;
+    width: 44px;
+    height: 17px;
+    font-size: 8px;
+}
+    .div3{
+        width: 140px;
+        height: 53px;
+        margin-top: 78px;
+    }
+    .div3h5{
+        font-size: 9px;
+    margin-top: 5px;
+    margin-left: 5px;
+    }
+    .div3img1{
+        margin-top: -15px;
+        margin-left: 106px;
+        height: 18px;
+    
+    }
+    .div3profile{
+        height: 16px;
+        margin-left: 12px;
+        margin-top:7px;
+    }
+    .guest{
+        margin-left: 45px;
+        margin-top: 8px;
+        height: 20px;
+        font-size: 14px;
+    }
+    .addimg{
+        height: 16px;
+        margin-left: 12px;
+        margin-top: 28px;
+    }
+    .add{
+        margin-left: 45px;
+        margin-top: 8px;
+        margin-left: 12px;
+    margin-top: 28px;
+        height: 20px;
+        font-size: 14px;
+    }
+    #meanucheck{
+        /* display: none; */
+    }
+        #meanucheck:checked ~ .nav {
+            left:100%;
+    }
+    .meanucheckbtn{
+    
+    }
+    .meanuimg{
+        height: 28px;
+        width: 36px;
+        margin-top: 14px;
+        margin-left: 5px;
+    }
+
+}

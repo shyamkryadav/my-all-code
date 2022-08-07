@@ -1,0 +1,63 @@
+/*  1.  element selecotor */
+li{
+    color: red;
+}
+
+/* 2. id selector */
+#list2{
+    color: green;
+}
+
+
+/* 3 class selector */
+.list5{
+    color: blueviolet;
+}
+
+ /* 4.pesudo selector */
+ a:hover{
+     color: cyan;
+ }
+
+ /* 5. pesudo element */
+ p::first-letter{
+     color: darkolivegreen;
+     font-size: 50px;
+ }
+ p::first-line{
+     color: darkolivegreen;
+     font-size: 50px;
+ }
+
+ /* 6.attribute selector */
+ a[href="https://www.google.com"]{
+     color: lavender;
+ }
+input[type="password"]{
+    color: aqua;
+}
+
+/* 7. universal selector */
+*{
+    border: 2px solid red;
+}
+
+/* 8.combination selsector */
+ div a {
+     color: blue;
+ }
+
+ /* direct ciled */
+ div>a {
+    color: rgb(170, 63, 108);
+}
+
+p+a{
+    background: rgb(10, 137, 241);
+}
+
+/* normal selector */
+
+div,p{
+    color: red;
+}

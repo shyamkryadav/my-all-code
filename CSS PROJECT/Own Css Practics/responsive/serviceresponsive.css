@@ -1,0 +1,62 @@
+@media (min-width:0) and (max-width:320px) {
+    .nav ul{
+        display: none;
+    }
+    .heading h1 {
+        margin: 13px;
+        font-size: 24px;
+    }
+    .heading p {
+        font-weight: bold;
+        font-size: 9px;
+    }
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 32px 22px;
+    }
+    .brainimg {
+        height: 13vw;
+        margin-bottom: 15px;
+        margin-top: -71px;
+    }
+    .brainheading {
+        font-size: 10px;
+    }
+    .brainpara {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 8px 0;
+        width: 105px;
+    }
+    .brainpara2 {
+        font-size: 13px;
+        margin-left: -11px;
+        margin-top: -6px;
+    }
+    .speakerimg {
+        height: 13vw;
+        margin-bottom: 15px;
+        margin-top: -71px;
+    }
+    .speakerheading {
+        font-size: 10px;
+        width: 80px;
+    }
+    .speakerpara {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin: 8px 0;
+        width: 105px;
+    }
+    .webdevimg {
+        height: 13vw;
+        margin-bottom: 15px;
+        margin-top: -71px;
+    }
+}
